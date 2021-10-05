@@ -32,7 +32,9 @@ public class JavaApplication2 {
           
         System.out.println(suma);
         //asd
-      
+        
+       String h="hola que tal";
+      System.out.println(h);
    }
     
 }
