@@ -29,7 +29,8 @@ public class JavaApplication2 {
         suma=a+b;
          
         JOptionPane.showMessageDialog(null, suma);    
-                        
+          
+        System.out.println(suma);
       
    }
     
