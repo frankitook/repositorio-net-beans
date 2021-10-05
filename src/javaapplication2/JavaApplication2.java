@@ -24,14 +24,17 @@ public class JavaApplication2 {
         
         JOptionPane.showMessageDialog(null, "franco gimenez");//Muestro mi nombre en la consola
         
-        int a=2,b=3,suma;
+        int a=2 , b=3;
         
-        suma=a+b;
-         
-        JOptionPane.showMessageDialog(null, suma);    
-          
-        System.out.println(suma);
+        JOptionPane.showMessageDialog(null, ""+(a+b));
+        
+        String h="hola que tal";
+        
+        JOptionPane.showMessageDialog(null, h);
+            
       
    }
     
+  
 }
+
