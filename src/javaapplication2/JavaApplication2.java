@@ -31,6 +31,7 @@ public class JavaApplication2 {
         JOptionPane.showMessageDialog(null, suma);    
           
         System.out.println(suma);
+        
       
    }
     
