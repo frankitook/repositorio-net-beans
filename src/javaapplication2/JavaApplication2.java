@@ -22,12 +22,15 @@ public class JavaApplication2 {
         // TODO code application logic here
         
         
-        JOptionPane.showMessageDialog(null, "franco gimenez");
-                
-               
-           
-                
-             
-    }
+        JOptionPane.showMessageDialog(null, "franco gimenez");//Muestro mi nombre en la consola
+        
+        int a=2,b=3,suma;
+        
+        suma=a+b;
+         
+        JOptionPane.showMessageDialog(null, suma);    
+                        
+      
+   }
     
 }
