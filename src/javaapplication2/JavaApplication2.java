@@ -31,7 +31,7 @@ public class JavaApplication2 {
         String h="hola que tal";
         
         JOptionPane.showMessageDialog(null, h);
-            
+        JOptionPane.showMessageDialog(null, "gg");
       //holis
    }
     
