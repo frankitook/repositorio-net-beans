@@ -33,17 +33,7 @@ public class JavaApplication2 {
                                                             + "3-Multiplicar\n "
                                                             + "4-Salir\n"+"\n"
                                                             + "Ingrese una opcion:"));
-        int a , b,suma;
-         a=Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese numero"));
-         b=Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese numero"));
-        JOptionPane.showMessageDialog(null, ""+(a+b));
-        
-        String h="hola que tal";
-        
-        JOptionPane.showMessageDialog(null, h);
-            
-        //holanda
-      
+              
       switch(op){
           case 1:
              
