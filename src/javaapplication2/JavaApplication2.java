@@ -22,28 +22,44 @@ public class JavaApplication2 {
         // TODO code application logic here
         
         
-        JOptionPane.showMessageDialog(null, "franco gimenez");//Muestro mi nombre en la consola
+        JOptionPane.showMessageDialog(null, "Bienvenido");
         
-        int a , b,suma;
-         a=Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese numero"));
-         b=Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese numero"));
-        JOptionPane.showMessageDialog(null, ""+(a+b));
-        
-        String h="hola que tal";
-        
-        JOptionPane.showMessageDialog(null, h);
-        JOptionPane.showMessageDialog(null, "gg");
-      //holis
-        suma=a+b;
-         
-        JOptionPane.showMessageDialog(null, suma);    
-          
-        System.out.println(suma);
-        //asd
-        
-        h = "hola que tal";
-      System.out.println(h);
+       int op=0;
+       
+       while(op!=4) {
+           
+      op=Integer.parseInt(JOptionPane.showInputDialog(null, "1-Sumar\n "
+                                                            + "2-Restar\n "
+                                                            + "3-Multiplicar\n "
+                                                            + "4-Salir\n"+"\n"
+                                                            + "Ingrese una opcion:"));
       
+      switch(op){
+          case 1:
+             
+              int a,b;
+              a= Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el primer numero entero"));
+              b= Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el segundo numero entero"));
+              JOptionPane.showMessageDialog(null, a+b);
+              break;
+              
+          case 2:
+               int c,d;
+              c= Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el primer numero entero"));
+              d= Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el segundo numero entero"));
+              JOptionPane.showMessageDialog(null, c+d);
+              break; 
+              
+          case 3:
+               int e,f;
+              e= Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el primer numero entero"));
+              f= Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese el segundo numero entero"));
+              JOptionPane.showMessageDialog(null, e*f);
+              break; 
+      
+      }
+      
+       }
      
    }
     
